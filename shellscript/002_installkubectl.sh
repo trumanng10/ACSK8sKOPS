@@ -8,3 +8,5 @@ echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https:/
 sudo apt-get update
 sudo apt-get install -y kubelet=1.21.0-00 kubectl=1.21.0-00
 sudo apt-mark hold kubelet kubectl
+
+echo "Kubectl Installation Completed"
