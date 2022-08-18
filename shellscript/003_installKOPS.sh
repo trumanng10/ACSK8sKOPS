@@ -7,3 +7,4 @@ sudo mv kops-linux-amd64 /usr/local/bin/kops
 sudo apt install -y python-pip
 sudo pip install awscli
 
+echo "KOPS and AWSCLI Installations Completed"
